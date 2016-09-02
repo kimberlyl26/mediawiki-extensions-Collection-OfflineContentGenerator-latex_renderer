@@ -45,6 +45,15 @@ In Ubuntu 12.04, the `lmodern` package must also be installed manually.
 Hyperlinks in generated PDFs will not resolve correctly unless the
 target wiki has [$wgUsePathInfo] enabled.
 
+OS X users can,
+
+```
+brew cask install mactex
+brew install imagemagick poppler
+```
+
+and download the [FreeSerif.ttf](7) and [Linux Libertine O.otf](8).
+
 ## Generating bundles
 
 You may wish to install the [mw-ocg-bundler] npm package to create bundles
@@ -105,3 +114,5 @@ GPLv2
 [4]: https://david-dm.org/wikimedia/mediawiki-extensions-Collection-OfflineContentGenerator-latex_renderer
 [5]: https://david-dm.org/wikimedia/mediawiki-extensions-Collection-OfflineContentGenerator-latex_renderer/dev-status.svg
 [6]: https://david-dm.org/wikimedia/mediawiki-extensions-Collection-OfflineContentGenerator-latex_renderer#info=devDependencies
+[7]: https://savannah.gnu.org/projects/freefont/
+[8]: http://www.linuxlibertine.org/
